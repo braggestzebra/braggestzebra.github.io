@@ -1,0 +1,168 @@
+ html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #152238;
+        }
+        header {
+        position: absolute;
+        top: 40%;
+        width: 50%;  
+        padding: 20px 40px;
+        z-index: 1000;
+        display: flex;
+       }    
+        nav ul {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        }
+        nav a {
+            position: fixed;
+            text-decoration: none;
+            color: #8892b0;
+            font-weight: bold;
+            font-size: 20px;
+            transition: color 0.3s;          
+        }
+        nav a.active {
+        color: #f7f8f7;       
+        transform: scale(1.2);
+        }
+        nav a:hover {
+        color: #f0f0f0;
+        transform: scale(1.9);
+        }
+        .logo{  
+            position: fixed;
+            bottom: 20px;
+            left: 20px;                 
+            display: flex;                  
+        }
+        .logo img {                    
+            width: 30px;
+            height: 30px;
+            margin-right: 15px;          
+        }
+        .logo img:hover{
+            transform: scale(1.2);
+            transition: transform 0.3s ease;
+             filter: brightness(0) invert(1);
+        }
+        h1 {
+            position: fixed;
+            margin-top: 80px;
+            color: #d0d0d0;
+            font-size: 60px;
+            font-family: 'DM Serif text', serif;
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+        h2 {
+            position: fixed;
+            top: 12%;
+            color: #c1c1c1;
+            font-family: 'times new roman', serif;
+            margin-top: 2px;
+            font-size: 35px;
+            float: left;
+            padding-bottom: 30px;
+        }
+        h4{
+            color: whitesmoke;
+            font-family: 'Yrsa', serif;
+        }
+        .maim{
+            margin-left: 100px;
+            padding:10px;
+            max-width: fit-content;
+        }
+        .intro {
+            position: fixed;
+            top: 19%;
+            color: #807f7f;
+            float:left;
+            padding-right: 70%;
+            font-size: 25px;       
+            
+        }
+        .description,
+        .projects,
+        .experience {
+          margin-left: 50%;
+          width: 45%;
+          color: #c4c4c4;
+          font-family: 'Yrsa', serif;
+          font-size: 25px;
+          font-style: normal;
+          text-align: justify;
+          margin-bottom: 30px;
+          position: relative; /* allow scroll and stacking */
+          }              
+        #role {
+          font-family: 'Scheherazade New', serif; 
+          font-style:normal;
+          color: #c1c1c1;
+          text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+          font-size: 45px;
+          transition: opacity 0.5s ease;
+        }               
+        section {
+          margin-bottom: 60px;;
+          min-height: auto;
+          padding: 120px 40px 40px;
+          scroll-margin-top: 60px;
+        }
+        .project-list li {
+            font-style: italic;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        /* Project name links */
+        .project-list a {
+            color: #d1d1d1;
+	   		padding:10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        /* Description text under project names */
+        .project-list p {
+            margin: 5px 0 0;
+            font-style: normal;
+            color: #939393;
+        }
+	    .project-list a:hover {
+		      color: aliceblue;
+	      }  
+        /* Button container for background color toggle */
+        .btn-container {
+            margin: 20px;
+            text-align: center;
+        }
+        /* Styling for the background color toggle button */
+        button {                             
+            color: black;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        /* Hover effect for the button */
+        button:hover {
+            background-color: #0509e5;
+        } 
+        strong {
+            color: #ffffff;
+        }
+        .data-coordinator,
+         .front-desk-supervisor,  
+        .public-safety-officer {
+            font-family: 'Yrsa', serif;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: justify;            
+        }
