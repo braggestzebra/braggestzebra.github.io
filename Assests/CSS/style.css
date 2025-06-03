@@ -54,7 +54,7 @@
              filter: brightness(0) invert(1);
         }
         h1 {
-            position: relative;
+            position: fixed;
             margin-top: 80px;
             color: #d0d0d0;
             font-size: 60px;
@@ -63,7 +63,7 @@
             margin-bottom: 4px;
         }
         h2 {
-            position: relative;
+            position: fixed;
             top: 18%;
             color: #c1c1c1;
             font-family: 'times new roman', serif;
@@ -82,8 +82,8 @@
             max-width: fit-content;
         }
         .intro {
-            position: relative;
-            top: 22%;
+            position: fixed;
+            top: 20%;
             color: #807f7f;
             float:left;
             padding-right: 70%;
